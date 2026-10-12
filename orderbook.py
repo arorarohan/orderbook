@@ -1,5 +1,3 @@
-"""Your order book. See stage1.md for the spec."""
-
 import heapq
 from collections import deque
 
@@ -16,7 +14,7 @@ class OrderBook:
 
 
     def add_order(self, order_id: int, side: str, price: int, qty: int):
-        """side is "buy" or "sell". Returns a list of trades (see the stage specs)."""
+        """side is "buy" or "sell". Returns a list of trades"""
 
         trades = []
 
